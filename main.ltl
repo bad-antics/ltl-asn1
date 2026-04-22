@@ -1,0 +1,15 @@
+// ltl-asn1/main.ltl
+//
+// ASN.1 DER/BER reader for the RFC 5280 subset.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-asn1 v0.1.0")
+    io::println("ASN.1 DER/BER reader for the RFC 5280 subset.")
+    0
+}
